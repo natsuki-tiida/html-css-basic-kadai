@@ -53,12 +53,11 @@ main {
 
 h2 {
   font-size: 24px;
-  border-bottom: 2px dotted rgb(236, 122, 122);
-
+ border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
-  content: "・";
+  content: "●";
   color: rgb(239, 111, 139);
 
 }
@@ -104,6 +103,8 @@ a:hover {
   }
 
   #parent {
-    display: block;
+    flex-direction: column;
+    align-items: center;
+  
   }
 }
